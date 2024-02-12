@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # загружаем модель
-model_file_path = "model\project_1_mastercard.sav"
+model_file_path = "model/project_1_mastercard.sav"
 model = pickle.load(open(model_file_path, 'rb'))
 
 app = Flask('mastercard')
